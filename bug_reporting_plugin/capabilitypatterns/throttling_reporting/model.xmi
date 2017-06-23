@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_-X2fQFg1EeeWoaE1AMKvZw" guid="_-X2fQFg1EeeWoaE1AMKvZw">
+    <resourceDescriptors xmi:id="_-X2fQVg1EeeWoaE1AMKvZw" id="-5i9WilvrRn6vhVgEhQwffw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_-WwTEFg1EeeWoaE1AMKvZw" name="throttling_reporting" guid="_-WwTEFg1EeeWoaE1AMKvZw">
+    <methodElementProperty xmi:id="_-W418Fg1EeeWoaE1AMKvZw" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_L4VBsFg2EeeWoaE1AMKvZw" name="me_edited" value="true"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_3jPicFg2EeeWoaE1AMKvZw" name="Bug Processing" guid="_3jPicFg2EeeWoaE1AMKvZw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_3jQJgFg2EeeWoaE1AMKvZw" name="Bug Processing" guid="_3jQJgFg2EeeWoaE1AMKvZw" presentationName="Bug Processing" superActivities="_-WwTEVg1EeeWoaE1AMKvZw" breakdownElements="_7HpdUFg2EeeWoaE1AMKvZw _7HqEYFg2EeeWoaE1AMKvZw _7HrSgVg2EeeWoaE1AMKvZw _a2bNI1hAEeeWoaE1AMKvZw _dH9x8FhAEeeWoaE1AMKvZw _dH9x8VhAEeeWoaE1AMKvZw _eW8GgFhAEeeWoaE1AMKvZw _eW8Gg1hAEeeWoaE1AMKvZw _eW8GhVhAEeeWoaE1AMKvZw _eW8Gh1hAEeeWoaE1AMKvZw _e4LLUFhAEeeWoaE1AMKvZw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_7HpdUFg2EeeWoaE1AMKvZw" name="report_bug" guid="_7HpdUFg2EeeWoaE1AMKvZw" presentationName="Report Bug" briefDescription="Fill a report in the bug tracking system describing a bug" superActivities="_3jQJgFg2EeeWoaE1AMKvZw" output="_7HqEYFg2EeeWoaE1AMKvZw" performedPrimarilyBy="_a2bNI1hAEeeWoaE1AMKvZw">
+        <methodElementProperty xmi:id="_7HqrcFg2EeeWoaE1AMKvZw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_fxUhAFgYEee3448gYAK2vw#_IK_6gFgZEee3448gYAK2vw"/>
+        <performedPrimarilyByExcluded href="uma://_fxUhAFgYEee3448gYAK2vw#_9euEYFggEee3448gYAK2vw"/>
+        <performedPrimarilyByExcluded href="uma://_fxUhAFgYEee3448gYAK2vw#_CN-tAFgaEee3448gYAK2vw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_7HqEYFg2EeeWoaE1AMKvZw" name="open_report" guid="_7HqEYFg2EeeWoaE1AMKvZw" presentationName="Open Report" briefDescription="A record in the bug tracking software, describing an error in the SUT" isPlanned="false" superActivities="_3jQJgFg2EeeWoaE1AMKvZw">
+        <methodElementProperty xmi:id="_7HqEYVg2EeeWoaE1AMKvZw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_7Hr5kFg2EeeWoaE1AMKvZw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <WorkProduct href="uma://_fxUhAFgYEee3448gYAK2vw#_Ke2XAFgaEee3448gYAK2vw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_7HrSgVg2EeeWoaE1AMKvZw" name="prioritized_report" guid="_7HrSgVg2EeeWoaE1AMKvZw" presentationName="Prioritized Report" briefDescription="A bug report with a priority label assigned" isPlanned="false" superActivities="_3jQJgFg2EeeWoaE1AMKvZw">
+        <methodElementProperty xmi:id="_7HrSglg2EeeWoaE1AMKvZw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_7HsgoFg2EeeWoaE1AMKvZw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <WorkProduct href="uma://_fxUhAFgYEee3448gYAK2vw#_cHmg8FgbEee3448gYAK2vw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_a2bNI1hAEeeWoaE1AMKvZw" name="reporter_throttling" guid="_a2bNI1hAEeeWoaE1AMKvZw" presentationName="Reporter (Throttling)" briefDescription="A bug reporter participating on the Throttling style of bug reporting" isPlanned="false" superActivities="_3jQJgFg2EeeWoaE1AMKvZw" modifies="_7HqEYFg2EeeWoaE1AMKvZw _7HrSgVg2EeeWoaE1AMKvZw" responsibleFor="_7HrSgVg2EeeWoaE1AMKvZw _7HqEYFg2EeeWoaE1AMKvZw">
+        <methodElementProperty xmi:id="_a2bNJFhAEeeWoaE1AMKvZw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_a2gssFhAEeeWoaE1AMKvZw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Role href="uma://_fxUhAFgYEee3448gYAK2vw#_KA-zoFg4EeeWoaE1AMKvZw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_dH9x8FhAEeeWoaE1AMKvZw" name="prioritize_bug_throttling" guid="_dH9x8FhAEeeWoaE1AMKvZw" presentationName="Prioritize Bug" briefDescription="Assigns a priority label to a bug report" superActivities="_3jQJgFg2EeeWoaE1AMKvZw" linkToPredecessor="_f6KMwFhAEeeWoaE1AMKvZw" mandatoryInput="_7HqEYFg2EeeWoaE1AMKvZw" optionalInput="_dH9x8VhAEeeWoaE1AMKvZw" output="_7HrSgVg2EeeWoaE1AMKvZw" performedPrimarilyBy="_a2bNI1hAEeeWoaE1AMKvZw">
+        <methodElementProperty xmi:id="_dI8pYFhAEeeWoaE1AMKvZw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_fxUhAFgYEee3448gYAK2vw#_bph-sFg4EeeWoaE1AMKvZw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_dH9x8VhAEeeWoaE1AMKvZw" name="reputation_rank" guid="_dH9x8VhAEeeWoaE1AMKvZw" presentationName="Reputation Rank" briefDescription="A sorted collection of the bug reporters, according to its reputation score." isPlanned="false" superActivities="_3jQJgFg2EeeWoaE1AMKvZw">
+        <methodElementProperty xmi:id="_dH9x8lhAEeeWoaE1AMKvZw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_dI9QcFhAEeeWoaE1AMKvZw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <WorkProduct href="uma://_fxUhAFgYEee3448gYAK2vw#_p4gl4Fg4EeeWoaE1AMKvZw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_eW8GgFhAEeeWoaE1AMKvZw" name="fix_bug" guid="_eW8GgFhAEeeWoaE1AMKvZw" presentationName="Fix Bug" briefDescription="Develops a fix for a previously reported bug." superActivities="_3jQJgFg2EeeWoaE1AMKvZw" linkToPredecessor="_hNxwwFhAEeeWoaE1AMKvZw" mandatoryInput="_7HrSgVg2EeeWoaE1AMKvZw" output="_eW8GhVhAEeeWoaE1AMKvZw _eW8Gh1hAEeeWoaE1AMKvZw" performedPrimarilyBy="_eW8Gg1hAEeeWoaE1AMKvZw">
+        <methodElementProperty xmi:id="_eXBmEFhAEeeWoaE1AMKvZw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_fxUhAFgYEee3448gYAK2vw#_nVcSYFgbEee3448gYAK2vw"/>
+        <performedPrimarilyByExcluded href="uma://_fxUhAFgYEee3448gYAK2vw#_tBcy8FgbEee3448gYAK2vw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_eW8Gg1hAEeeWoaE1AMKvZw" name="fixer_throttling" guid="_eW8Gg1hAEeeWoaE1AMKvZw" presentationName="Fixer (Throttling)" briefDescription="A developer in charge of bug fixing" isPlanned="false" superActivities="_3jQJgFg2EeeWoaE1AMKvZw" modifies="_eW8GhVhAEeeWoaE1AMKvZw _eW8Gh1hAEeeWoaE1AMKvZw _dH9x8VhAEeeWoaE1AMKvZw" responsibleFor="_eW8Gh1hAEeeWoaE1AMKvZw _eW8GhVhAEeeWoaE1AMKvZw _dH9x8VhAEeeWoaE1AMKvZw">
+        <methodElementProperty xmi:id="_eW8GhFhAEeeWoaE1AMKvZw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_eXCNIFhAEeeWoaE1AMKvZw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Role href="uma://_fxUhAFgYEee3448gYAK2vw#_CZmWEFg5EeeWoaE1AMKvZw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_eW8GhVhAEeeWoaE1AMKvZw" name="patch" guid="_eW8GhVhAEeeWoaE1AMKvZw" presentationName="Patch" briefDescription="A patch that fixes a reported bug" isPlanned="false" superActivities="_3jQJgFg2EeeWoaE1AMKvZw">
+        <methodElementProperty xmi:id="_eW8GhlhAEeeWoaE1AMKvZw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_eXC0MFhAEeeWoaE1AMKvZw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <WorkProduct href="uma://_fxUhAFgYEee3448gYAK2vw#_H0QuIFgcEee3448gYAK2vw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_eW8Gh1hAEeeWoaE1AMKvZw" name="resolved_report" guid="_eW8Gh1hAEeeWoaE1AMKvZw" presentationName="Resolved Report" briefDescription="A bug whose patch is already delivered." isPlanned="false" superActivities="_3jQJgFg2EeeWoaE1AMKvZw">
+        <methodElementProperty xmi:id="_eW8GiFhAEeeWoaE1AMKvZw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_eXCNIVhAEeeWoaE1AMKvZw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <WorkProduct href="uma://_fxUhAFgYEee3448gYAK2vw#_YUwsAFgcEee3448gYAK2vw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_e4LLUFhAEeeWoaE1AMKvZw" name="evaluate_prioritization" guid="_e4LLUFhAEeeWoaE1AMKvZw" presentationName="Evaluate Prioritization" briefDescription="Makes an assesment if the reported priority is accurate or not." superActivities="_3jQJgFg2EeeWoaE1AMKvZw" linkToPredecessor="_htvDMFhAEeeWoaE1AMKvZw" mandatoryInput="_7HrSgVg2EeeWoaE1AMKvZw" output="_dH9x8VhAEeeWoaE1AMKvZw" performedPrimarilyBy="_eW8Gg1hAEeeWoaE1AMKvZw">
+        <methodElementProperty xmi:id="_e4R5AFhAEeeWoaE1AMKvZw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_fxUhAFgYEee3448gYAK2vw#_wV-GoFg6EeeWoaE1AMKvZw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_f6KMwFhAEeeWoaE1AMKvZw" guid="_f6KMwFhAEeeWoaE1AMKvZw" pred="_7HpdUFg2EeeWoaE1AMKvZw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_hNxwwFhAEeeWoaE1AMKvZw" guid="_hNxwwFhAEeeWoaE1AMKvZw" pred="_dH9x8FhAEeeWoaE1AMKvZw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_htvDMFhAEeeWoaE1AMKvZw" guid="_htvDMFhAEeeWoaE1AMKvZw" pred="_eW8GgFhAEeeWoaE1AMKvZw"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_-WwTEVg1EeeWoaE1AMKvZw" name="throttling_reporting" guid="_-WwTEVg1EeeWoaE1AMKvZw" presentationName="Throttling Reporting" briefDescription="A bug reporting process with a reputation mechanism" breakdownElements="_3jQJgFg2EeeWoaE1AMKvZw">
+      <presentation xmi:id="-5i9WilvrRn6vhVgEhQwffw" href="uma://-5i9WilvrRn6vhVgEhQwffw#-5i9WilvrRn6vhVgEhQwffw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>
