@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:MethodConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_CqF54FgdEee3448gYAK2vw" name="default_configuration" guid="_CqF54FgdEee3448gYAK2vw" presentationName="Default Configuration" briefDescription="A default configuration for this library">
+  <methodElementProperty xmi:id="_EFCN4FgdEee3448gYAK2vw" name="me_edited" value="true"/>
+  <methodPluginSelection href="uma://_fxUhAFgYEee3448gYAK2vw#_fxUhAFgYEee3448gYAK2vw"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="uma://_HCgEkFgdEee3448gYAK2vw#_HCgEkFgdEee3448gYAK2vw"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_fxUhAFgYEee3448gYAK2vw#_fxUhDVgYEee3448gYAK2vw"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_fxUhAFgYEee3448gYAK2vw#_fxUhAVgYEee3448gYAK2vw"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_fxUhAFgYEee3448gYAK2vw#_nYcDYFgYEee3448gYAK2vw"/>
+</org.eclipse.epf.uma:MethodConfiguration>

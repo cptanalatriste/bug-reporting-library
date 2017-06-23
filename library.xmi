@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_NRLmoFgYEee3448gYAK2vw" guid="_NRLmoFgYEee3448gYAK2vw">
+    <subManagers xmi:id="_fxlmwFgYEee3448gYAK2vw" href="uma://_fxUhAFgYEee3448gYAK2vw#_fxlmwFgYEee3448gYAK2vw"/>
+    <resourceDescriptors xmi:id="_NRM0wFgYEee3448gYAK2vw" id="_NRJKYVgYEee3448gYAK2vw" uri=""/>
+    <resourceDescriptors xmi:id="_fxlmwVgYEee3448gYAK2vw" id="_fxUhAFgYEee3448gYAK2vw" uri="bug_reporting_plugin/plugin.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodLibrary xmi:id="_NRJKYVgYEee3448gYAK2vw" name="bug-reporting-library" guid="_NRJKYVgYEee3448gYAK2vw" briefDescription="A library containing the method content for bug reporting">
+    <methodElementProperty xmi:id="_NcEoAFgYEee3448gYAK2vw" name="library_synFree" value="true"/>
+    <methodPlugins xmi:id="_fxUhAFgYEee3448gYAK2vw" href="uma://_fxUhAFgYEee3448gYAK2vw#_fxUhAFgYEee3448gYAK2vw"/>
+  </org.eclipse.epf.uma:MethodLibrary>
+</xmi:XMI>
