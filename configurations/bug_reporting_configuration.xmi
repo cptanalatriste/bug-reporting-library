@@ -3,6 +3,8 @@
   <methodElementProperty xmi:id="_EFCN4FgdEee3448gYAK2vw" name="me_edited" value="true"/>
   <methodElementProperty xmi:id="_sAE_EFgnEee3448gYAK2vw" name="TouchedByConfigEditor" value="true"/>
   <methodElementProperty xmi:id="_sAFmIFgnEee3448gYAK2vw" name="Config_doneLoadCheckPkgs" value="_HCgEkFgdEee3448gYAK2vw/_Si9EcFgnEee3448gYAK2vw/_nYcDYFgYEee3448gYAK2vw"/>
+  <methodElementProperty xmi:id="_KdGF4FhOEeelVq-KsrzWMw" name="no_update_on_click" value="false"/>
+  <methodElementProperty xmi:id="_KdHUAFhOEeelVq-KsrzWMw" name="update_on_click" value="true"/>
   <methodPluginSelection href="uma://_fxUhAFgYEee3448gYAK2vw#_fxUhAFgYEee3448gYAK2vw"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="uma://_HCgEkFgdEee3448gYAK2vw#_HCgEkFgdEee3448gYAK2vw"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_fxUhAFgYEee3448gYAK2vw#_fxUhDVgYEee3448gYAK2vw"/>
