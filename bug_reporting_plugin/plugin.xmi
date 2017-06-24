@@ -35,7 +35,7 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_nYcDYFgYEee3448gYAK2vw" name="unsupervised_prioritization" guid="_nYcDYFgYEee3448gYAK2vw" presentationName="Bug Reporting Package" briefDescription="Container of the method content for bug reporting.">
           <methodElementProperty xmi:id="_nYcDYVgYEee3448gYAK2vw" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_rMCQ0FgYEee3448gYAK2vw" name="me_edited" value="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_CN-tAFgaEee3448gYAK2vw" name="reporter_prioritizer" guid="_CN-tAFgaEee3448gYAK2vw" presentationName="Reporter-Prioritizer" briefDescription="Is in charge of filling a report in the bug tracking system" responsibleFor="_Ke2XAFgaEee3448gYAK2vw _cHmg8FgbEee3448gYAK2vw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_CN-tAFgaEee3448gYAK2vw" name="reporter_prioritizer" guid="_CN-tAFgaEee3448gYAK2vw" presentationName="Reporter" briefDescription="Is in charge of filling a report in the bug tracking system" responsibleFor="_Ke2XAFgaEee3448gYAK2vw _cHmg8FgbEee3448gYAK2vw">
             <methodElementProperty xmi:id="_F4qPAFgaEee3448gYAK2vw" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
@@ -81,19 +81,19 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rGPEoFg1EeeWoaE1AMKvZw" name="throttling_reporting" guid="_rGPEoFg1EeeWoaE1AMKvZw" presentationName="Throttling Reporting">
           <methodElementProperty xmi:id="_rGaDwFg1EeeWoaE1AMKvZw" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_tkEZAFg1EeeWoaE1AMKvZw" name="me_edited" value="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_KA-zoFg4EeeWoaE1AMKvZw" name="reporter_with_reputation" guid="_KA-zoFg4EeeWoaE1AMKvZw" presentationName="Reporter with Reputation" briefDescription="A bug reporter participating on the Throttling style of bug reporting" responsibleFor="_Ke2XAFgaEee3448gYAK2vw _cHmg8FgbEee3448gYAK2vw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_KA-zoFg4EeeWoaE1AMKvZw" name="reporter_with_reputation" guid="_KA-zoFg4EeeWoaE1AMKvZw" presentationName="Reporter" briefDescription="A bug reporter participating on the Throttling style of bug reporting" responsibleFor="_Ke2XAFgaEee3448gYAK2vw _cHmg8FgbEee3448gYAK2vw">
             <methodElementProperty xmi:id="_OcD30Fg4EeeWoaE1AMKvZw" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_bph-sFg4EeeWoaE1AMKvZw" name="prioritize_bug_throttling" guid="_bph-sFg4EeeWoaE1AMKvZw" presentationName="Prioritize Bug" briefDescription="Assigns a priority label to a bug report" performedBy="_KA-zoFg4EeeWoaE1AMKvZw" mandatoryInput="_Ke2XAFgaEee3448gYAK2vw _p4gl4Fg4EeeWoaE1AMKvZw" output="_cHmg8FgbEee3448gYAK2vw">
             <methodElementProperty xmi:id="_fHR38Fg4EeeWoaE1AMKvZw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_p4gl4Fg4EeeWoaE1AMKvZw" name="reputation_rank" guid="_p4gl4Fg4EeeWoaE1AMKvZw" presentationName="Reputation Rank" briefDescription="A sorted collection of the bug reporters, according to its reputation score.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_p4gl4Fg4EeeWoaE1AMKvZw" name="reputation_ranking" guid="_p4gl4Fg4EeeWoaE1AMKvZw" presentationName="Reputation Ranking" briefDescription="A sorted collection of the bug reporters, according to its reputation score.">
             <methodElementProperty xmi:id="_r1t5cFg4EeeWoaE1AMKvZw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_CZmWEFg5EeeWoaE1AMKvZw" name="fixer_punisher" guid="_CZmWEFg5EeeWoaE1AMKvZw" presentationName="Fixer-Punisher" briefDescription="A developer in charge of bug fixing" responsibleFor="_H0QuIFgcEee3448gYAK2vw _p4gl4Fg4EeeWoaE1AMKvZw _YUwsAFgcEee3448gYAK2vw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_CZmWEFg5EeeWoaE1AMKvZw" name="fixer_penalizer" guid="_CZmWEFg5EeeWoaE1AMKvZw" presentationName="Fixer" briefDescription="A developer in charge of bug fixing" responsibleFor="_H0QuIFgcEee3448gYAK2vw _p4gl4Fg4EeeWoaE1AMKvZw _YUwsAFgcEee3448gYAK2vw">
             <methodElementProperty xmi:id="_EMaXgFg5EeeWoaE1AMKvZw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_wV-GoFg6EeeWoaE1AMKvZw" name="evaluate_prioritization" guid="_wV-GoFg6EeeWoaE1AMKvZw" presentationName="Evaluate Prioritization" briefDescription="Makes an assesment if the reported priority is accurate or not." performedBy="_CZmWEFg5EeeWoaE1AMKvZw" mandatoryInput="_YUwsAFgcEee3448gYAK2vw" output="_p4gl4Fg4EeeWoaE1AMKvZw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_wV-GoFg6EeeWoaE1AMKvZw" name="evaluate_prioritization" guid="_wV-GoFg6EeeWoaE1AMKvZw" presentationName="Assess Priority" briefDescription="Makes an assesment if the reported priority is accurate or not." performedBy="_CZmWEFg5EeeWoaE1AMKvZw" mandatoryInput="_YUwsAFgcEee3448gYAK2vw" output="_p4gl4Fg4EeeWoaE1AMKvZw">
             <methodElementProperty xmi:id="_4_lAwFg6EeeWoaE1AMKvZw" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
